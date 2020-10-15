@@ -9,7 +9,7 @@ Triangle::Triangle(string name, double base, double height){
 Triangle::~Triangle(){}
 
 double Triangle::getArea(){
-	return baseAmount*heightAmount;
+	return  (baseAmount*heightAmount)*1/2;
 }
 
 void Triangle::print(){

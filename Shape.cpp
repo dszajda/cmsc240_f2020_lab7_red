@@ -4,12 +4,12 @@ using namespace std;
 
 
 
-Shape(std::string shapeName){}
-~Shape(){}
+Shape::Shape(std::string shapeName){}
+Shape::~Shape(){}
 
-double getArea(){}
+double Shape::getArea(){}
 
-void print(){
+void Shape::print(){
 	cout << "Your shape is: " << name << endl;
 	
 }
