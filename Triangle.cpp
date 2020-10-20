@@ -22,3 +22,4 @@ void Triangle::print(){
 	cout << "Base: " << baseAmount << endl;
 	cout << "Height: " << heightAmount << endl;
 }
+#endif

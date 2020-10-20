@@ -16,3 +16,4 @@ class Triangle : public Shape{
 		void print();
 
 };
+#endif
