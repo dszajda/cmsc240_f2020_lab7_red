@@ -7,7 +7,7 @@ class Circle : public Shape{
 
         public:
                 Circle(std:: string name, double radius);
-                ~Circle();
+                ~Circle(){};
 
                 double getArea();
 
