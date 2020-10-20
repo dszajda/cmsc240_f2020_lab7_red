@@ -1,10 +1,12 @@
+#ifndef __TRINAGLE_CPP__
+#define __TRIANGLE_CPP__
+
 #include <iostream>
 #include "Shape.h"
 #include "Triangle.h"
 using namespace std;
 
 Triangle::Triangle(string name, double base, double height) : Shape(name){
-	shapeName = name;
 	baseAmount = base;
 	heightAmount = height;
 }
@@ -20,3 +22,4 @@ void Triangle::print(){
 	cout << "Base: " << baseAmount << endl;
 	cout << "Height: " << heightAmount << endl;
 }
+#endif

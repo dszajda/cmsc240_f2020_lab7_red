@@ -1,8 +1,10 @@
+#ifndef __TRINAGLE_H__
+#define __TRIANGLE_H__
+
 #include <string>
 class Triangle : public Shape{
 
 	private:
-		std::string shapeName;
 		double baseAmount;
 		double heightAmount;
 	public:
@@ -14,3 +16,4 @@ class Triangle : public Shape{
 		void print();
 
 };
+#endif
