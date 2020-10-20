@@ -1,15 +1,16 @@
+#include <string>
 class Triangle : public Shape{
 
 	private:
 		std::string shapeName;
-		std::string baseAmount;
-		std::string heightAmount;
+		double baseAmount;
+		double heightAmount;
 	public:
-		Triangle(string name, double base, double height);
+		Triangle(std::string name, double base, double height);
 		~Triangle();
 		
 		double getArea();
 		
 		void print();
 
-}
+};

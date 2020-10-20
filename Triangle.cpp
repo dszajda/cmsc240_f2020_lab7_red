@@ -1,6 +1,9 @@
+#include <iostream>
+#include "Shape.h"
 #include "Triangle.h"
+using namespace std;
 
-Triangle::Triangle(string name, double base, double height){
+Triangle::Triangle(string name, double base, double height) : Shape(name){
 	shapeName = name;
 	baseAmount = base;
 	heightAmount = height;
@@ -13,7 +16,7 @@ double Triangle::getArea(){
 }
 
 void Triangle::print(){
-	cout << "The shape is: " << shapeName << endl;
-	cout << "The base is: " << baseAmount << endl;
-	cout << "the height is: " << heightAmount << endl;
+	Shape::print();
+	cout << "Base: " << baseAmount << endl;
+	cout << "Height: " << heightAmount << endl;
 }
