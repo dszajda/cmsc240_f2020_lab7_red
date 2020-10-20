@@ -19,6 +19,8 @@ int main(){
     Circle cir = Circle("Circle1", 3.0);
     cir.print();
     cout << "The area is:" << cir.getArea() << endl;
+    Shape* shapePtr = &cir;
+    shapePtr->print();
 
 
     cout << "----------------" << std::endl;
@@ -26,7 +28,9 @@ int main(){
     cout << "----------------" << std::endl;
     Triangle tri = Triangle("Triangle1",1.0,2.0);
     tri.print();
-    cout << "The area is: " << tri.getArea() << endl;  
+    cout << "The area is: " << tri.getArea() << endl;
+    shapePtr = &tri;
+    shapePtr->print();  
 
     cout << "----------------" << endl;
     cout << "Test Rectangle:" << endl;
@@ -34,5 +38,7 @@ int main(){
     Rectangle rect = Rectangle("Rectangle1", 7.0, 8.0);
     rect.print();
     cout << "The area is: " << rect.getArea() << endl;
+    shapePtr = &rect;
+    shapePtr->print();
     return 0;
 }
