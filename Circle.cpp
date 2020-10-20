@@ -1,3 +1,6 @@
+#ifndef __CIRCLE_CPP__
+#define __CIRCLE_CPP__
+
 #include <iostream>
 #include "Shape.h"
 #include "Circle.h"
@@ -17,3 +20,5 @@ void Circle::print(){
         Shape::print();
         cout << "Radius:" << radius << endl;
 }
+
+#endif

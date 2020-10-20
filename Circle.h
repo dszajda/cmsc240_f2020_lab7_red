@@ -1,3 +1,6 @@
+#ifndef __CIRCLE_H__
+#define __CIRCLE_H__
+
 #include <string>
 class Circle : public Shape{
 
@@ -14,3 +17,5 @@ class Circle : public Shape{
                 void print();
 
 };
+
+#endif
