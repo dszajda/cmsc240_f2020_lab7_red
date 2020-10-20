@@ -2,6 +2,7 @@
 #include "Shape.h"
 #include "Rectangle.h"
 #include "Triangle.h"
+#include "Circle.h"
 using namespace std;
 
 int main(){
@@ -11,9 +12,13 @@ int main(){
     cout << "----------------" << endl;
     Shape shape = Shape("Generic shape");
     shape.print();
+ 
     cout << "----------------" << endl;
     cout << "Test Circle:" << endl;
     cout << "----------------" << endl;
+    Circle cir = Circle("Circle1", 3.0);
+    cir.print();
+    cout << "The area is:" << cir.getArea() << endl;
 
 
     cout << "----------------" << std::endl;
