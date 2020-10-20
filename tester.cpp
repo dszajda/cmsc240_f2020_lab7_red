@@ -18,7 +18,9 @@ int main(){
     cout << "----------------" << std::endl;
     cout << "Test Triangle:" << std::endl;
     cout << "----------------" << std::endl;
-
+    Triangle tri = Triangle("Triangle1",1.0,2.0);
+    tri.print();
+    cout << "The area is: " << tri.getArea() << endl;  
 
     cout << "----------------" << endl;
     cout << "Test Rectangle:" << endl;
