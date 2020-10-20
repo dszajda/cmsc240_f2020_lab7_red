@@ -34,8 +34,13 @@ int main(){
     Rectangle rect = Rectangle("Rectangle1", 7.0, 8.0);
     rect.print();
     cout << "The area is: " << rect.getArea() << endl;
+    
 
+
+    
+    cout << "----------------" << endl;
     cout << "Indivudal Tests: " << endl;
+    cout << "----------------" << endl; 
     Shape* shapePtr = &cir;
     shapePtr->print();
     shapePtr = &tri;

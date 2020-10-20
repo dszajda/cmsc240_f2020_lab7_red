@@ -1,3 +1,6 @@
+#ifndef __TRINAGLE_CPP__
+#define __TRIANGLE_CPP__
+
 #include <iostream>
 #include "Shape.h"
 #include "Triangle.h"

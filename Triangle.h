@@ -1,3 +1,6 @@
+#ifndef __TRINAGLE_H__
+#define __TRIANGLE_H__
+
 #include <string>
 class Triangle : public Shape{
 
