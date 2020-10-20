@@ -4,7 +4,6 @@
 using namespace std;
 
 Triangle::Triangle(string name, double base, double height) : Shape(name){
-	shapeName = name;
 	baseAmount = base;
 	heightAmount = height;
 }

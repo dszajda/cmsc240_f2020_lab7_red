@@ -2,7 +2,6 @@
 class Triangle : public Shape{
 
 	private:
-		std::string shapeName;
 		double baseAmount;
 		double heightAmount;
 	public:
