@@ -7,7 +7,6 @@
 using namespace std;
 
 Circle::Circle(string name, double radius) : Shape(name){
-        this->name = name;
         this->radius = radius;
 }
 
@@ -18,7 +17,7 @@ double Circle::getArea(){
 
 void Circle::print(){
         Shape::print();
-        cout << "Radius:" << radius << endl;
+        cout << "Radius: " << radius << endl;
 }
 
 #endif

@@ -5,7 +5,6 @@
 class Circle : public Shape{
 
         private:
-                std::string name;
                 double radius;
 
         public:
